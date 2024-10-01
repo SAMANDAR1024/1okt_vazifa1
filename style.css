@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: white;
+    width: 1440px;
+    padding: 30px 150px;
+    margin: auto;
+    padding: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.food{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.food a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 18.75px;
+text-align: left;
+
+}
+.food a:hover{
+    color: rgb(255, 21, 0);
+    transition: all 0.4s linear;
+   
+}
+.btn{
+    width: 150px;
+    height: 40px;
+  background-color: orange;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.btn:hover {
+    background-color: #000000;
+    color: #f9f9f9;
+    transition: all 0.5s linear;
+  }
+  .btn:active {
+    transform: scale(0.5);
+  }
+  section{
+    display: flex;
+    align-items: center;
+  }
+  .time h1{
+    font-family: Philosopher;
+font-size: 48.83px;
+font-weight: 700;
+line-height: 57.6px;
+text-align: left;
+margin-bottom: 20px;
+width: 550px;
+  }
+  .time p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+opacity: 0,5;
+margin-bottom: 20px;
+  }
+  .btn1{
+    background-color: orange;
+    color: white;
+    gap: 20px;
+    border-radius: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .btn1:hover {
+    background-color: #ffffff;
+   color: orange;
+   border: 2px solid whitesmoke;
+    transition: all 0.5s linear;
+  }
+  .btn1:active {
+    transform: scale(0.5);
+  }
+  .sentr{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 18.75px;
+letter-spacing: 0.2em;
+text-align: center;
+color: orange;
+margin-top: 20px;
+margin-bottom: 10px;
+  }
+  .sentr1{
+    font-family: Philosopher;
+font-size: 31.25px;
+font-weight: 700;
+line-height: 35px;
+text-align: center;
+margin-bottom: 30px;
+  }
+  .passion{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .home{
+    text-align: center;
+    align-items: center;
+  }
+  .home h2{
+    font-family: Philosopher;
+font-size: 25px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+  }
+  .home p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: center;
+opacity: 0.5;
+width: 290px;
+  }
